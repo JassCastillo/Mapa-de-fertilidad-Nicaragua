@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicaragua</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" type="text/css" href="/CSS/mapa.css">
+</head>
+<header>
+    <h2>Departamentos de Nicaragua</h2>
+    <select name="select-location" id="select-location">
+        <option value="-1">Seleccione un lugar:</option>
+        <option value="12.1227,-86.2588">Managua</option>
+        <option value="12.5566,-85.4613">Boaco</option>
+        <option value="11.662,-86.333">Carazo</option>
+        <option value="12.777,-87.278">Chinandega</option>
+        <option value="11.999,-85.100">Chontales</option>
+        <option value="13.148,-86.423">Estelí</option>
+        <option value="11.958,-85.853">Granada</option>
+        <option value="13.805,-85.545">Jinotega</option>
+        <option value="12.2494,-86.889">Leon</option>
+        <option value="13.428,-86.418">Madriz</option>
+        <option value="12.0288,-86.0516">Masaya</option>
+        <option value="12.9300,-85.8713">Matagalpa</option>
+        <option value="13.772,-86.269">Nueva Segovia</option>
+        <option value="11.377,-85.741">Rivas</option>
+        <option value="11.295,-84.426">Rio San Juan</option>
+        <option value="14.058,-83.993">RACCN</option>
+        <option value="12.184,-83.979">RACSS</option>
+    </select>
+</header>
+<body>
+    <div id="map"></div>
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script 
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin="">
+</script>
+<script src="/JS/mapa.js"></script>
+</body>
+</html>
